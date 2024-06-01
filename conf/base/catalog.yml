@@ -1,0 +1,7 @@
+az_sent_train:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/az_sent_train.csv
+
+az_sent_test:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/az_sent_test.csv

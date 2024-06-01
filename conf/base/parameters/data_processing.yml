@@ -1,0 +1,5 @@
+# conf/base/data_processing.yml
+
+data_params:
+  val_size: 0.2
+  random_state: 42

@@ -1,0 +1,8 @@
+2024-06-01 14:37:01,887 - kedro.pipeline.node - ERROR - Node 'preprocess_sentiment_data_node: preprocess_sentiment_data([az_sent_train,az_sent_test]) -> [tokenized_data]' failed with error: 
+can't convert np.ndarray of type numpy.object_. The only supported types are: float64, float32, float16, complex64, complex128, int64, int32, int16, int8, uint64, uint32, uint16, uint8, and bool.
+2024-06-01 14:49:53,030 - kedro.pipeline.node - ERROR - Node 'train_model_node: train_model([train_dataset,val_dataset,params:train_params]) -> [trained_model]' failed with error: 
+Using the `Trainer` with `PyTorch` requires `accelerate>=0.21.0`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+2024-06-01 14:50:38,808 - kedro.pipeline.node - ERROR - Node 'train_model_node: train_model([train_dataset,val_dataset,params:train_params]) -> [trained_model]' failed with error: 
+vars() argument must have __dict__ attribute
+2024-06-01 14:57:02,738 - kedro.pipeline.node - ERROR - Node 'train_model_node: train_model([train_dataset,val_dataset,params:train_params]) -> [trained_model]' failed with error: 
+MPS backend out of memory (MPS allocated: 17.64 GB, other allocations: 434.67 MB, max allowed: 18.13 GB). Tried to allocate 384.00 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

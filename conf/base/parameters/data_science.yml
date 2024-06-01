@@ -1,0 +1,10 @@
+# conf/base/train_params.yml
+
+train_params:
+  output_dir: "./results"
+  num_train_epochs: 1  # Reduced the number of epochs
+  batch_size: 32  # Increased the batch size
+  warmup_steps: 50  # Reduced the number of warmup steps
+  weight_decay: 0.01
+  logging_dir: "./logs"
+  logging_steps: 100  # Increased logging steps to reduce logging overhead
